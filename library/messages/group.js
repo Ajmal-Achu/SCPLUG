@@ -1,6 +1,0 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
