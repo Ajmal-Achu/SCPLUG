@@ -1,9 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
 
 const pino = require('pino')
 const NodeCache = require("node-cache")
