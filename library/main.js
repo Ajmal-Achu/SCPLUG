@@ -1,10 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
-
 
 const { default: Fauzidev,
   useMultiFileAuthState,
