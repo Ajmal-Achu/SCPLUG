@@ -1,11 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
-
-
 const axios = require("axios")
 const fs = require("fs")
 const path = require("path")
@@ -77,7 +69,7 @@ exports.onMessageUpsert = async (conn, m, chatUpdate, store) => {
     
     switch (command) {
     case 'tes': {
-    m.reply(`Work Brow`)
+    m.reply(`WORKING`)
     }
     break
     }
