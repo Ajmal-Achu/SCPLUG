@@ -1,11 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
-
-
 const connectionUpdate = (update, WAConnection) => {
   const { connection } = update
   if(connection === 'close') {
