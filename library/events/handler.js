@@ -1,10 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
-
 const { readdirSync } = require('fs')
 const { join } = require('path')
 
