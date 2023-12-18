@@ -1,0 +1,21 @@
+{
+  "name": "suzu",
+  "version": "1.0.2",
+  "description": "Hi Im 涙 I was created by Fauzidev",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index --code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oziispedzz"
+  },
+  "author": "Fauzidev",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
