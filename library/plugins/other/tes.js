@@ -1,9 +1,3 @@
-/* 
-
- - BASE ORI FAUZIDEV
- - ORI SCRIPT BY FAUZIDEV
-
-*/
 
 
 const { Command } = require('../../events/handler.js')
