@@ -1,4 +1,4 @@
-const { default: Fauzidev,
+const { default: Wiz,
   proto, 
   delay, 
   jidDecode,
