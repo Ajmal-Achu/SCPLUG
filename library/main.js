@@ -1,5 +1,4 @@
-
-const { default: Fauzidev,
+const { default: AjZap,
   useMultiFileAuthState,
   makeCacheableSignalKeyStore,
   PHONENUMBER_MCC, 
@@ -50,7 +49,7 @@ async function WAConnection() {
   defaultQueryTimeoutMs: undefined,
   }
   
-  global.conn = Fauzidev(connectionOptions)
+  global.conn = AjZap(connectionOptions)
   
   store?.bind(conn.ev)
   
@@ -98,7 +97,7 @@ async function WAConnection() {
       const { connection } = update;
       connectionUpdate(update, WAConnection)
     }
-  })
+  
     //Reject call
     if(events["call"]) {
       const m = events["call"][0];
@@ -152,8 +151,8 @@ async function WAConnection() {
       const anu = events['groups.update']
       console.log(anu)
     }
-
-    })
+  })
+    global.conn = AjZap(connectionOptions)
  
   //SETTING
   conn.decodeJid = (jid) => {
@@ -468,5 +467,6 @@ async function WAConnection() {
     );
   
   return conn
+  
 }
 WAConnection()
